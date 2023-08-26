@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 5px;
+}
+body{
+    background-image: url(background\ image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table,
+td,
+th {
+    border: 4px solid black;
+    border-collapse: collapse;
+    align-items: center;
+    background-color: aqua;
+}
+#navbar{
+ background-color: rgb(253, 207, 0);
+ margin: 5px;
+ border-radius: 25px;
+
+}
+#navbar a {
+    margin-top: 40px;
+}
+.navlink{
+    padding: 2px;
+    text-decoration: none;
+    margin: 10px;  
+}
+.navlink:hover {
+    color: crimson;
+    background-color: aliceblue;
+    border-radius: 25px;   
+}
+h3{
+    color: blue;
+    font-size: 2em;
+}
+.maindiv{
+    text-align: center;
+}
+#tablediv{
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;    
+}
+P{
+    font-size: 1.5em;
+}
